@@ -49,6 +49,18 @@
 //     });
 // $('#remove').on('click', this.removeRow.bind(this, dataTable));
 
+// const dataTable = $('#realtime').DataTable({
+//   data: dataSet,
+//   columns: [
+//     { title: 'Name' },
+//     { title: 'Position' },
+//     { title: 'Office' },
+//     { title: 'Extn.' },
+//     { title: 'Start date' },
+//     { title: 'Salary' }
+//   ]
+// });
+
 
 $(document).ready( function () {
   $('#table_id').DataTable();
