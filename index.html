@@ -6,12 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bravo</title>
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
-
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.bootstrap.min.css">
 </head>
 <body>
 
   <!-- datatable -->
-  <table id="realtime"></table>
+  <table id="realtime" class="table table-striped table-bordered dt-responsive nowrap"></table>
 
   <!-- create new movie form -->
   <!-- create a form with valid options in our HTML page -->
@@ -51,7 +53,7 @@
     <button class="btn btn-info" id="remove">Delete</button>
   </div>
 
-
+    <!-- jquery and datatables cdns -->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.15/js/jquery.dataTables.js"></script>
     <script src="https://cdn.datatables.net/plug-ins/1.10.15/api/row().show().js"></script>
@@ -59,9 +61,6 @@
     <!-- local javascript file inports -->
     <script src="js/data.js"></script>
     <script src="js/script.js"></script>
-
-    <script src="https://js.pusher.com/4.1/pusher.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.js"></script>
 
 </body>
 </html>
